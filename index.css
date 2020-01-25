@@ -1,0 +1,133 @@
+:root {
+    --dark: #222831;
+    --white: #ffffff;
+    --darkgreen: #29a19c;
+    --lightgreen: #a3f7bf;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark);
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.main-header {
+    background: url('img/bcg.jpg') center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.header-container {
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.header-container h2 {
+    margin-left: 20px;
+    color: #000000;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.header-container ol {
+    list-style-type: none;
+}
+
+.header-container li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.header-container li a {
+    color: #000000;
+    text-decoration: none;
+    transition: all ease-in-out 0.2s;
+}
+
+.header-container li a:hover {
+    color: var(--darkgreen)
+}
+
+.btn {
+    box-sizing: border-box;
+    padding: 1.2em 2em;
+    background-color: var(--darkgreen);
+    border-radius: 15px;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: var(--white);
+    transition: all ease 0.2s;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn:hover {
+    background-color: var(--lightgreen);
+}
+
+/* main */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main > section {
+    margin-top: 150px;
+    width: 75%;
+}
+
+article {
+    margin-top: 150px;
+    width: 75%;
+}
+
+h2 {
+    color: var(--darkgreen);
+    font-size: 2em;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+section img {
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+    margin: 50px 0;
+    width: 45%;
+}
+
+#board-games li {
+    margin-top: 25px;
+}
+
+/* contact */
+#contact {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    margin-top: 200px;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: var(--dark);
+    color: var(--white);
+}

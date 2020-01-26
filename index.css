@@ -31,25 +31,29 @@ h1, h2, h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row-reverse;
     font-weight: 500;
-}
-
-.header-container h2 {
-    margin-left: 20px;
-    color: #000000;
+    padding: 20px 25px;
 }
 
 .navbar {
-    padding: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container h2 {
+    color: #000000;
 }
 
 .header-container ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .header-container li {
     display: inline-block;
-    margin-left: 30px;
+    margin: 0 20px;
 }
 
 .header-container li a {
@@ -110,6 +114,7 @@ article {
 h2 {
     color: var(--darkgreen);
     font-size: 2em;
+    text-align: center;
 }
 
 p {

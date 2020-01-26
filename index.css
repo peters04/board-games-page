@@ -92,11 +92,19 @@ main {
 main > section {
     margin-top: 150px;
     width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 article {
     margin-top: 150px;
     width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 h2 {
